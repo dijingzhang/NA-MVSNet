@@ -27,7 +27,7 @@ Currently, we only test the low-resolution datasets and batch_size is set to be 
 
 You can do the training in your local machine with:
 ```bash
-python train.py --mode train/val --batch_size 16 --alpha 0.2 --beta 3 --gamma 0.2
+python train.py --mode train/val --batch_size 16 --alpha [need to tune] --beta [need to tune] --gamma [need to tune]
 ```
 
 Or use colab with [this](https://github.com/16889-team/Normal-Aware-MVSNet/blob/main/na_mvsnet_training.ipynb) (Remember to upload the datasets to your gdrive)
