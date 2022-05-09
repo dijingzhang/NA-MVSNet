@@ -30,7 +30,7 @@ You can do the training in your local machine with:
 python train.py --mode train/val --batch_size 16 --alpha [need to tune] --beta [need to tune] --gamma [need to tune]
 ```
 
-Or use colab with [this](https://github.com/16889-team/Normal-Aware-MVSNet/blob/main/na_mvsnet_training.ipynb) (Remember to upload the datasets to your gdrive)
+Or use colab with [this](https://github.com/dijingzhang/NA-MVSNet/blob/main/na_mvsnet_training.ipynb) (Remember to upload the datasets to your gdrive)
 
 You can see the training result in checkpoints/log. (With three different parameter-settings)
 
